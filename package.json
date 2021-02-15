@@ -29,7 +29,6 @@
     "dotenv": "^8.2.0",
     "graphql": "^15.5.0",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.11.16",
-    "netlify-lambda": "^2.0.3"
+    "mongoose": "^5.11.16"
   }
 }
