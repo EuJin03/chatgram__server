@@ -1,4 +1,3 @@
-import { defaultCreateRemoteResolver } from "apollo-server";
 import mongoose from "mongoose";
 
 const commentSchema = mongoose.Schema(

@@ -1,4 +1,4 @@
-import { gql } from "apollo-server";
+import { gql } from "../utils/node_modules/apollo-server";
 
 export const typeDefs = gql`
   type Post {
