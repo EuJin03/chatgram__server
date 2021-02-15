@@ -1,0 +1,34 @@
+{
+  "name": "chatgram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/server",
+    "server": "node server/server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EuJin03/chat_gram.git"
+  },
+  "author": "EuJin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EuJin03/chat_gram/issues"
+  },
+  "homepage": "https://github.com/EuJin03/chat_gram#readme",
+  "dependencies": {
+    "@apollo/client": "^3.3.10",
+    "apollo-server": "^2.21.0",
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.16",
+    "netlify-lambda": "^2.0.3"
+  }
+}
