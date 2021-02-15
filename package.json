@@ -5,6 +5,7 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
+    "serve": "node server/server",
     "start": "node server/server",
     "server": "node server/server.js",
     "client": "npm start --prefix client",
