@@ -2,7 +2,7 @@ import { config } from "dotenv";
 config();
 import colors from "colors";
 
-import { ApolloServer, PubSub } from "./graphql/node_modules/apollo-server";
+import { ApolloServer, PubSub } from "apollo-server";
 import connectDB from "./config/db.js";
 import { typeDefs } from "./graphql/typeDefs.js";
 import resolvers from "./graphql/resolvers/index.js";
